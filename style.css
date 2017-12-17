@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+html
+{
+  height: 100%;
+	background: radial-gradient(circle, #ffffff 20%, #DCE1D8);
+  font-family: 'Roboto Slab', serif;
+  font-size:20px;
+}
+.calculator
+{
+  background-color:#56CBF9;
+  width:345px;
+  height:auto;
+  overflow:hidden;
+  margin:100px auto;
+  border-radius:10px;
+  border:none;
+}
+.clear
+{
+  float:left;
+  background-color:#F9564F;
+  height:40px;
+  width:66px;
+  margin:8px;
+  margin-top:18px;
+  border-radius:10px;
+  color:white;
+  text-align:center;
+  line-height:38px;
+  cursor:pointer;
+  transition:all ease 0.3s;
+  user-select:none;
+}
+.screen
+{
+  float:right;
+  background-color:#47A7CC;
+  height:50px;
+  width:250px;
+  margin:8px;
+  margin-left:0px;
+  border-radius:10px;
+  text-align:right;
+  color:white;
+  line-height:38px;
+  letter-spacing:1px;
+  padding-right:5px;
+  overflow:auto;
+  user-select:none;
+}
+span
+{
+  background-color:#46494C;
+  float:left;
+  margin:10px;
+  height:40px;
+  width:66px;
+  border-radius:10px;
+  color:white;
+  text-align:center;
+  line-height:38px;
+  cursor:pointer;
+  user-select:none;
+  transition:all ease 0.3s;
+}
+.keys span:hover{
+  background-color:#B4B2B4;
+}
+.clear:hover
+{
+  background-color:#FA746F;
+}
